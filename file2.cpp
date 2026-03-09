@@ -15,3 +15,10 @@ string Status_lulus(float r){
     else
         return "Gagal";
 }
+
+
+//program utama
+int main(){
+    float nilBI,nilMT,rerata;
+    string status; //penambahan string status
+    
