@@ -30,3 +30,6 @@ int main(){
     cin >> nilMT;
     rerata = Rata_rata(nilBI,nilMT);
      
+        //display lolos atau tidak
+    cout << "Status kelulusan = " <<Status_lulus(rerata)<<" , dengan nilai rerata = "<<rerata<<endl;
+}
