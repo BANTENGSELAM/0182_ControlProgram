@@ -22,3 +22,11 @@ int main(){
     float nilBI,nilMT,rerata;
     string status; //penambahan string status
     
+
+    //display lolos dan tidak
+    cout <<"Masukan nilai Bahasa Inggris = ";
+    cin >> nilBI;
+    cout <<"Masukan nilai Matematika = ";
+    cin >> nilMT;
+    rerata = Rata_rata(nilBI,nilMT);
+     
